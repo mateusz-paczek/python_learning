@@ -12,7 +12,7 @@ config_path = '/home/pl23017/Downloads/advanced.technology.labs/'
 # Use os.walk method to go through all Directiories and SubDirectiories
 for dirpath, dirname, filename in os.walk(config_path):
 
-    print filename
+    #print filename
 
     # Create full path to config files
     for fname in filename:
